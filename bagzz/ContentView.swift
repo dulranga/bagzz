@@ -8,17 +8,21 @@
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+  @StateObject var cart = Cart()
+
+  var body: some View {
+    VStack {
+      HeaderView()
+      TabBarView()
     }
+    .environmentObject(cart)
+  }
 }
 
-#Preview {
-    ContentView()
+struct ContentView_Previews: PreviewProvider {
+  static let cart = Cart()
+
+  static var previews: some View {
+    ContentView().environmentObject(cart)
+  }
 }
