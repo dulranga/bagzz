@@ -32,6 +32,7 @@
 		BE445FF42B7FD319008BE67B /* DetailedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedView.swift; sourceTree = "<group>"; };
 		BE445FF62B7FDFD5008BE67B /* ProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductView.swift; sourceTree = "<group>"; };
 		BE797D7C2B80750F004243F6 /* CartService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartService.swift; sourceTree = "<group>"; };
+		BE797D7E2B8111DF004243F6 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		BEA8AC9A2B7F901A00E0A675 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		BEA8AC9D2B7F905D00E0A675 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		BEA8ACB92B7F974200E0A675 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
@@ -63,6 +64,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BE797D7F2B811223004243F6 /* screenshots */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = screenshots;
+			sourceTree = "<group>";
+		};
 		BEA8AC992B7F900D00E0A675 /* Pages */ = {
 			isa = PBXGroup;
 			children = (
@@ -105,6 +113,8 @@
 		BEF392022B7E7191004E27A5 = {
 			isa = PBXGroup;
 			children = (
+				BE797D7E2B8111DF004243F6 /* README.md */,
+				BE797D7F2B811223004243F6 /* screenshots */,
 				BEF3920D2B7E7191004E27A5 /* bagzz */,
 				BEF3920C2B7E7191004E27A5 /* Products */,
 			);

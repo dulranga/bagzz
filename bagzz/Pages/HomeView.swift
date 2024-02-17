@@ -69,7 +69,7 @@ struct HomeView: View {
 
           products = try await NetworkService.getData(
             from: "https://api.escuelajs.co/api/v1/products",
-            withParams: ["limit": "8", "offset": "0"])
+            withParams: ["limit": "8", "offset": "5"])
         } catch {
           print(error)
         }
